@@ -1,0 +1,189 @@
+---
+title: "R Geek Dream"
+subtitle: "Xaringan"
+author: "谢益辉"
+institute: "RStudio, PBC"
+date: "2016/12/12"
+output:
+  xaringan::moon_reader:
+    css: [default, my-theme.css, my-font.css]
+    lib_dir: libs
+    seal: false
+    # self_contained: false # if true, fonts will be stored locally
+    
+    nature:
+      beforeInit: "macros.js"
+      ratio: "16:10"
+      highlightStyle: tomorrow
+      highlightLines: true
+      highlightSpans: true
+      countIncrementalSlides: false
+
+
+    
+    
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+options(htmltools.dir.version = FALSE,
+        htmltools.preserve.raw = FALSE)
+
+knitr::opts_chunk$set(warning=FALSE, message=FALSE)
+```
+
+
+```{r load_refs, echo=FALSE}
+library(RefManageR) # bibliography and citation
+BibOptions(check.entries = FALSE,
+           bib.style = "authortitle",
+           cite.style = "authoryear",
+           style = "markdown",
+           no.print.fields= c("doi", "url", "issn", "pages"),
+           hyperlink = TRUE,
+           dashed = FALSE)
+myrefs= ReadBib("myref.bib", check= FALSE)
+```
+
+
+```{r iconFUN, include=FALSE}
+library(fontawesome)
+icon_wlt= function(name, fill, w, l, t){
+  pos= paste0("absolute; left:", l, "; top:", t)
+  fa(name= name, fill= fill, width= w, 
+                position = pos)
+}
+```
+
+
+
+class: inverse
+background-image: url(pic/nefu-vw.svg), url(pic/xingzhenglou.png)
+background-size: 10%, 40%
+background-position: 10% 90%, 100% 50%
+background-color: #4f6132
+
+<br>
+<br>
+
+# Kirlian images
+
+### X.K.
+
+<hr style="background-color:#f7f8fa; width:40%; margin-left:0; height:2px; border:0px solid red;" />
+
+`r format(Sys.Date(), format= '%B %e, %Y')`
+
+
+---
+
+layout: true
+
+background-image: url(pic/nefu8.svg)
+background-size: 60%
+background-position: 100% 100%
+
+
+---
+
+# 山里红
+
+山里红，秋（黄）叶、未凋落；
+
+**启动前准备**，将叶片放置在放电板下，如图：
+
+
+
+![:wlt 60%, 20%, 35%](pic/XUE_93951.jpg)
+
+---
+
+# 山里红
+
+进光量过大导致**过曝**；
+
+下图.sydney-red[**白色区域及叶缘**]出现辉光。
+
+
+
+![:wlt 60%, 20%, 35%](pic/XUE_94001.jpg)
+
+---
+
+# 山里红
+
+正常曝光时，辉光为.sydney-red[**蓝紫色**]。
+
+
+
+![:wlt 60%, 20%, 25%](pic/XUE_94061.jpg)
+
+---
+
+# 丁香（绿叶）
+
+.sydney-red[**过曝 v.s. 正常曝光**]：
+
+![:wlt 50%, 3%, 30%](pic/XUE_94041.jpg)
+
+![:wlt 50%, 48%, 30%](pic/XUE_94051.jpg)
+
+---
+
+.sydney-red[**另一枚丁香叶片：**]
+
+
+![:wlt 100%, 0%, 8%](pic/XUE_94081.jpg)
+
+
+
+
+.footnote[.sydney-yellow[注：中心的炽光应是.xxl[**螺丝**]放电发热]]
+
+---
+
+## 黑皮油松-1（绿色针叶、蓝紫色辉光）
+
+![:wlt 90%, 5%, 15%](pic/XUE_94101.jpg)
+
+---
+
+## 黑皮油松-2（绿色针叶、蓝紫色辉光）
+
+![:wlt 90%, 5%, 15%](pic/XUE_94111.jpg)
+
+---
+
+## 黑皮油松-3（枯叶）
+
+![:wlt 90%, 5%, 2%](pic/XUE_94121.jpg)
+
+---
+
+## 黑皮油松-4（枯叶）
+
+![:wlt 90%, 5%, 15%](pic/XUE_94091.jpg)
+
+---
+
+<br>
+
+.box-quote[
+# 小结
+
+- 所有对象的辉光均为.sydney-red[蓝紫色]，包括钥匙；
+
+- 相对而言，枯黄针叶的放电现象较弱，而健康的针叶辉光均匀显现；
+
+]
+
+<br>
+
+猜想：可能是枯落针叶中.blue[水分含量过少]导致。尤其图片_''黑皮油松-4''_中显示的辉光，很有可能是枯黄松针.blue[下方的铜螺丝发出的辉光]，而非松针本身 (见上一页)。
+
+---
+
+![:wlt 90%, 5%, 1%](pic/XUE_94071.jpg)
+
+
+
