@@ -1,5 +1,5 @@
 ---
-title: "R Geek Dream"
+title: "薛奎"
 subtitle: "Xaringan"
 author: "谢益辉"
 institute: "RStudio, PBC"
@@ -100,13 +100,11 @@ background-position: 100% 100%
 
 # 山里红
 
-进光量过大导致**过曝**；
-
-下图.sydney-red[**白色区域及叶缘**]出现辉光。
+进光量过大导致**过曝**；下图.sydney-red[**白色区域及叶缘**]出现辉光。
 
 
 
-![:wlt 60%, 20%, 35%](pic/XUE_94001.jpg)
+![:wlt 70%, 15%, 25%](pic/XUE_94001.jpg)
 
 ---
 
@@ -114,9 +112,7 @@ background-position: 100% 100%
 
 正常曝光时，辉光为.sydney-red[**蓝紫色**]。
 
-
-
-![:wlt 60%, 20%, 25%](pic/XUE_94061.jpg)
+![:wlt 60%, 20%, 30%](pic/XUE_94061.jpg)
 
 ---
 
@@ -152,15 +148,16 @@ background-position: 100% 100%
 
 ![:wlt 90%, 5%, 15%](pic/XUE_94111.jpg)
 
----
-
-## 黑皮油松-3（枯叶）
-
-![:wlt 90%, 5%, 2%](pic/XUE_94121.jpg)
 
 ---
 
-## 黑皮油松-4（枯叶）
+## 黑皮油松-3（枯）
+
+![:wlt 80%, 10%, 15%](pic/XUE_94121.jpg)
+
+---
+
+## 黑皮油松-4（枯）
 
 ![:wlt 90%, 5%, 15%](pic/XUE_94091.jpg)
 
@@ -183,7 +180,7 @@ background-position: 100% 100%
 
 ---
 
-![:wlt 90%, 5%, 1%](pic/XUE_94071.jpg)
+![:wlt 80%, 9%, 7%](pic/XUE_94071.jpg)
 
 
 
